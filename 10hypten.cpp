@@ -1,3 +1,8 @@
+/*
+This program is to find hypotenuse of triange using 
+math function 
+*/
+
 #include <iostream>
 #include <cmath>
 using namespace std;
@@ -17,10 +22,9 @@ cin>>b;
 
 
 c = sqrt(pow(a , 2) + pow (b , 2));
-
+ 
 cout <<"the side c is : "<< c ;
 
+return 0 ;
 
-
-    return 0 ;
 }
