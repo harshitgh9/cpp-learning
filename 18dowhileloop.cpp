@@ -1,0 +1,22 @@
+/*
+do while loop = do some block of code first 
+then repeat again if condition is true
+*/
+
+#include <iostream>
+using namespace std;
+
+int main(){
+
+    int number;
+
+    do{
+        cout << "enter a positive #: ";
+        cin >> number;
+    }while(number < 0);
+
+    cout << "the # number is: " << number;
+
+    return 0;
+
+}

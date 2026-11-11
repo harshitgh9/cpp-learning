@@ -1,0 +1,20 @@
+/*
+break = break out of a loop
+continue = skip current iteration
+*/
+
+
+#include <iostream>
+using namespace std;
+
+int main(){
+
+    for(int i = 1; i <=10; i++){
+        if(i == 7){
+            continue;
+        }
+        cout << i << endl;
+    }
+    return 0;
+
+}
